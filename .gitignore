@@ -1,0 +1,28 @@
+// taleemxpress/.gitignore
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+
+# Build directories
+dist/
+build/
+.next/
+
+# System files
+.DS_Store
+*.log
+
+# Database migrations
+drizzle/
+
+# IDE/Editor
+.vscode/
+.idea/
